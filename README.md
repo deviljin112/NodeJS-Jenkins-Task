@@ -75,3 +75,9 @@ If we return once again to our root folder, we can now safely use `vagrant ssh` 
 ### Provision
 
 There are two seperate provision.sh files that get executed on the specific machine. This way each machine is self-contained with the files and software it requires.
+
+## Branches
+
+```bash
+git checkout -b development
+```
