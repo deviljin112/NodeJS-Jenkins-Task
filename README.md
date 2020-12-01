@@ -12,6 +12,14 @@ You will need the following software installed and working in order to follow al
 - [Visual Studio Code](https://code.visualstudio.com/download) or any other light-weight IDE.
 - Download or Clone this repo and have it saved somewhere easily accessible.
 
+## TLDR
+
+1. Install requirements
+2. Run the machine with `vagrant up`
+3. Run tests with `bundle` and `rake spec` in `/tests/` folder
+4. Connect to machine with `vagrant ssh`
+5. Develop!
+
 ## First Steps
 
 Ensure that the applications are installed correctly. To do this simple open your command prompt / terminal / bash depending on your OS and type in the following command and check if the results are similar to the ones specified below.
@@ -44,8 +52,6 @@ Vagrant 2.2.13
 
 Open your virtual box and ensure that its on in the background for the rest of the progress.
 
-![VB](img/virtual_box.png)
-
 ## Instructions
 
 ### Testing
@@ -61,8 +67,6 @@ It is important to remember that the `mongod.conf` file needs to be in the same 
 ### Virtual Machine
 
 Now that our tests have been ran. We can initialise our machine. Return back to our root folder (`cd ..` twice). From here run `vagrant up`. This will initalise our machine and run the necessary code to add some of the dependancies that failed earlier. After this process is complete we need to return back to our `tests` and run our tests again. We will see that now, that all the tests passed successfully.
-
-![rake](img/rake_test.png)
 
 ### SSH
 
