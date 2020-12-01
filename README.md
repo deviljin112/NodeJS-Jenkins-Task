@@ -58,7 +58,7 @@ Open your virtual box and ensure that its on in the background for the rest of t
 
 In order to make sure we have all the correct dependencies installed we need to run a test that will check if anything is missing.
 </br>
-To run our test we need to navigate to a subfolder containing a `Rakefile`, in our case its in `tests` folder. After this we can run `rake spec` that will test if our dependencies are installed on our machine. This test is expected to fail so do not fear an output that will be all red.
+To run our test we need to navigate to a subfolder containing a `Rakefile` and `Gemfile`, in our case its in `tests` folder. After this we can run `bundle` and then `rake spec` that will test if our dependencies are installed on our machine. This test is expected to fail so do not fear an output that will be all red.
 
 ### Important Note
 
