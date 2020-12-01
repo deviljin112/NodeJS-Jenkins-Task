@@ -14,6 +14,10 @@ sudo apt-get install python-software-properties -y
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
+echo "export DB_HOST=192.168.10.150" >> ~/.bashrc
+
+source ~/.bashrc
+
 # install pm2
 sudo npm install pm2 -g
 
@@ -26,10 +30,6 @@ sudo service nginx restart
 
 cd /home/ubuntu/app
 
-echo "export DB_HOST=192.168.10.150" >> ~/.bashrc
-
-source ~/.bashrc
-
-npm install
+# npm install
 
 pm2 start app.js --update-env
