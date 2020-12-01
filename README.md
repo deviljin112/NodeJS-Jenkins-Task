@@ -1,4 +1,4 @@
-# Vagrant MongoDB Task
+# NodeJS-Jenkins-Task
 
 The purpose of this repo is to create a mongodb ready virtual machine. This machine will automate the entire process of initialisation a machine with the necessary files, programs and configuration. This will have a multi machine running with the other ubuntu machine focusing on the app.js program.
 
