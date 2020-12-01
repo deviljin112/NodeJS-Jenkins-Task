@@ -20,6 +20,8 @@ You will need the following software installed and working in order to follow al
 4. Connect to machine with `vagrant ssh`
 5. Develop!
 
+Side Note: This repo is connected to a Jenkins Automation System which handles marging of `development` branch to `master`.
+
 ## First Steps
 
 Ensure that the applications are installed correctly. To do this simple open your command prompt / terminal / bash depending on your OS and type in the following command and check if the results are similar to the ones specified below.
