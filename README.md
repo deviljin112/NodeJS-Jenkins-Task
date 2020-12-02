@@ -83,3 +83,7 @@ There are two seperate provision.sh files that get executed on the specific mach
 ```bash
 git checkout -b development
 ```
+
+## Jenkins Implementation
+
+![Jenkins](Jenkins.png)
